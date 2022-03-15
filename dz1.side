@@ -1,0 +1,310 @@
+{
+  "id": "a1784de2-fed7-4627-a025-5f1e448dc321",
+  "version": "2.0",
+  "name": "dz1",
+  "url": "https://www.iglobe.ru/",
+  "tests": [{
+    "id": "c30896e3-379c-4fb4-a44c-7ee1c354aeb8",
+    "name": "iglobe",
+    "commands": [{
+      "id": "a4125307-85bd-4e4b-b5dc-9fa5ff9ad45a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.iglobe.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82b20b11-12d3-48d6-be45-943b67bc10c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8eb006b5-cd94-4466-9c35-5d42c942c31e",
+      "comment": "",
+      "command": "click",
+      "target": "id=io_destination",
+      "targets": [
+        ["id=io_destination", "id"],
+        ["name=destination", "name"],
+        ["css=#io_destination", "css:finder"],
+        ["xpath=//input[@id='io_destination']", "xpath:attributes"],
+        ["xpath=//td[@id='io_dest']/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div[2]/table/tbody/tr/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb2def0e-d755-46d3-b57b-1b99fc9a785e",
+      "comment": "",
+      "command": "type",
+      "target": "id=io_destination",
+      "targets": [
+        ["id=io_destination", "id"],
+        ["name=destination", "name"],
+        ["css=#io_destination", "css:finder"],
+        ["xpath=//input[@id='io_destination']", "xpath:attributes"],
+        ["xpath=//td[@id='io_dest']/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div[2]/table/tbody/tr/td/input", "xpath:position"]
+      ],
+      "value": "cfyrn"
+    }, {
+      "id": "f77414ed-2fe6-476c-ba41-ab3e5e02cef0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=io_destination",
+      "targets": [
+        ["id=io_destination", "id"],
+        ["name=destination", "name"],
+        ["css=#io_destination", "css:finder"],
+        ["xpath=//input[@id='io_destination']", "xpath:attributes"],
+        ["xpath=//td[@id='io_dest']/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div[2]/table/tbody/tr/td/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "45348abe-33ff-460a-8d8b-2749cc11be57",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=io_destination",
+      "targets": [
+        ["id=io_destination", "id"],
+        ["name=destination", "name"],
+        ["css=#io_destination", "css:finder"],
+        ["xpath=//input[@id='io_destination']", "xpath:attributes"],
+        ["xpath=//td[@id='io_dest']/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div[2]/table/tbody/tr/td/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "58c3c6c6-5b12-4866-90e3-fed058968632",
+      "comment": "",
+      "command": "click",
+      "target": "id=LikeBtn_idate",
+      "targets": [
+        ["id=LikeBtn_idate", "id"],
+        ["css=#io_orig_block #LikeBtn_idate", "css:finder"],
+        ["xpath=//img[@id='LikeBtn_idate']", "xpath:attributes"],
+        ["xpath=//div[@id='io_orig_block']/div[2]/table/tbody/tr/td[2]/img", "xpath:idRelative"],
+        ["xpath=//div[10]/table/tbody/tr/td/div/div[2]/table/tbody/tr/td[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85db575d-16b2-4f0b-a542-43fb10a40160",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "85c786f3-f0ba-449e-b789-9c84271a3746",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "f16dd1b7-bb2d-4964-8592-942580c44ea1",
+      "comment": "",
+      "command": "click",
+      "target": "id=room_CHD[0]",
+      "targets": [
+        ["id=room_CHD[0]", "id"],
+        ["name=room_CHD[0]", "name"],
+        ["css=#room_CHD\\[0\\]", "css:finder"],
+        ["xpath=//select[@id='room_CHD[0]']", "xpath:attributes"],
+        ["xpath=//div[@id='io_guest_info']/table/tbody/tr[2]/td[3]/select", "xpath:idRelative"],
+        ["xpath=//td[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f987273-b4ba-484a-9213-cbead4632882",
+      "comment": "",
+      "command": "select",
+      "target": "id=room_CHD[0]",
+      "targets": [],
+      "value": "label=1"
+    }, {
+      "id": "9daa3587-e211-4c07-a12a-bbb61e785348",
+      "comment": "",
+      "command": "click",
+      "target": "css=#room_CHD\\[0\\] > option:nth-child(2)",
+      "targets": [
+        ["css=#room_CHD\\[0\\] > option:nth-child(2)", "css:finder"],
+        ["xpath=(//option[@value='1'])[6]", "xpath:attributes"],
+        ["xpath=//select[@id='room_CHD[0]']/option[2]", "xpath:idRelative"],
+        ["xpath=//td[3]/select/option[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3da938c5-e1b7-4e7c-9466-6811b403e9c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=room_CHD_ages[0][0]",
+      "targets": [
+        ["id=room_CHD_ages[0][0]", "id"],
+        ["name=room_CHD_ages[0][0]", "name"],
+        ["css=#room_CHD_ages\\[0\\]\\[0\\]", "css:finder"],
+        ["xpath=//select[@id='room_CHD_ages[0][0]']", "xpath:attributes"],
+        ["xpath=//div[@id='io_childs_sel']/table/tbody/tr[2]/td/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/table/tbody/tr[2]/td/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "639ce1e8-69dc-4f12-abfe-6a6f2f6ddd8d",
+      "comment": "",
+      "command": "select",
+      "target": "id=room_CHD_ages[0][0]",
+      "targets": [],
+      "value": "label=1"
+    }, {
+      "id": "74f1c473-b079-44db-85e4-1716f17151cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#room_CHD_ages\\[0\\]\\[0\\] > option:nth-child(2)",
+      "targets": [
+        ["css=#room_CHD_ages\\[0\\]\\[0\\] > option:nth-child(2)", "css:finder"],
+        ["xpath=(//option[@value='1'])[7]", "xpath:attributes"],
+        ["xpath=//select[@id='room_CHD_ages[0][0]']/option[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/table/tbody/tr[2]/td/select/option[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f9c7273-3604-4088-9d45-8cfc9a9462e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.image",
+      "targets": [
+        ["css=.image", "css:finder"],
+        ["xpath=//input[@type='image']", "xpath:attributes"],
+        ["xpath=//div[@id='btn_search']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d33a378-1aba-491a-a4f2-d6aa94f73b91",
+      "comment": "",
+      "command": "click",
+      "target": "css=#train_filter_top_arrDepTime_btn > span",
+      "targets": [
+        ["css=#train_filter_top_arrDepTime_btn > span", "css:finder"],
+        ["xpath=//a[@id='train_filter_top_arrDepTime_btn']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Время')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1aa802c-4b3f-4e27-af8e-e9ed99b69df7",
+      "comment": "",
+      "command": "click",
+      "target": "id=train_filter_arrDepTime_depevening_input",
+      "targets": [
+        ["id=train_filter_arrDepTime_depevening_input", "id"],
+        ["css=#train_filter_arrDepTime_depevening_input", "css:finder"],
+        ["xpath=//input[@id='train_filter_arrDepTime_depevening_input']", "xpath:attributes"],
+        ["xpath=//div[@id='train_filter_arrDepTime_depevening']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//div[4]/table/tbody/tr/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71e4c0da-d71a-403b-bba7-5ee2344ab206",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Что включено?",
+      "targets": [
+        ["linkText=Что включено?", "linkText"],
+        ["css=#rowPrice13 > .what-included > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Что включено?')])[14]", "xpath:link"],
+        ["xpath=//div[@id='rowPrice13']/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[66]", "xpath:href"],
+        ["xpath=//div[14]/div[2]/div/div/table/tbody/tr/td[2]/div[2]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bb99fbb-5017-48e2-8b51-596236e70146",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Что включено?",
+      "targets": [
+        ["linkText=Что включено?", "linkText"],
+        ["css=#rowPrice13 > .what-included > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Что включено?')])[14]", "xpath:link"],
+        ["xpath=//div[@id='rowPrice13']/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[66]", "xpath:href"],
+        ["xpath=//div[14]/div[2]/div/div/table/tbody/tr/td[2]/div[2]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1df42d69-100d-4584-9b45-ae09e8887808",
+      "comment": "",
+      "command": "click",
+      "target": "id=selBtn-13",
+      "targets": [
+        ["id=selBtn-13", "id"],
+        ["css=#selBtn-13", "css:finder"],
+        ["xpath=(//img[@alt='Выбрать место'])[14]", "xpath:img"],
+        ["xpath=//img[@id='selBtn-13']", "xpath:attributes"],
+        ["xpath=//div[@id='rowPrice13']/div[4]/a/img", "xpath:idRelative"],
+        ["xpath=//div[14]/div[2]/div/div/table/tbody/tr/td[2]/div[2]/div[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6752d81c-df21-4f0b-9b47-338d22e83d50",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Выбрать места",
+      "targets": [
+        ["linkText=Выбрать места", "linkText"],
+        ["css=#wg0 .wgPriceTop > .rwToggleMarker", "css:finder"],
+        ["xpath=//a[contains(text(),'Выбрать места')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"WS.railwayWagon.toggleWagon('0')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='wg0']/table/tbody/tr/td[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[11]", "xpath:href"],
+        ["xpath=//td[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Выбрать места')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a822537a-b64f-4c95-9c90-0a1692a83b29",
+      "comment": "",
+      "command": "click",
+      "target": "id=seat-0-030",
+      "targets": [
+        ["id=seat-0-030", "id"],
+        ["css=#seat-0-030", "css:finder"],
+        ["xpath=//div[@id='seat-0-030']", "xpath:attributes"],
+        ["xpath=//div[@id='seatMap0']/div[20]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[20]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ad1d6ac-f0b4-4d98-8f7d-baa189d20888",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn_continue0",
+      "targets": [
+        ["id=btn_continue0", "id"],
+        ["css=#btn_continue0", "css:finder"],
+        ["xpath=//img[@alt='Выбрать место']", "xpath:img"],
+        ["xpath=//img[@id='btn_continue0']", "xpath:attributes"],
+        ["xpath=//div[@id='wg0']/table/tbody/tr/td[2]/div[2]/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d170c881-130e-4c90-a16c-6be3553b48ed",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c30896e3-379c-4fb4-a44c-7ee1c354aeb8"]
+  }],
+  "urls": ["https://www.iglobe.ru/"],
+  "plugins": []
+}
